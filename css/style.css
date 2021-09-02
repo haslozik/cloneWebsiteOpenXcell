@@ -1,1 +1,93 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+/* components */
+nav {
+  height: 76px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav img {
+  margin-left: 30px;
+}
+
+nav .menuContainer {
+  height: 76px;
+}
+
+nav .menuContainer ul {
+  list-style: none;
+  height: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .menuContainer ul li {
+  padding: 0 20px;
+  text-align: center;
+  height: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+nav .menuContainer ul li:hover {
+  color: #FF6D24;
+}
+
+nav .menuContainer ul li .fa-chevron-down {
+  margin-left: 10px;
+}
+
+nav .menuContainer ul .searchMenuElement {
+  padding: 0 40px;
+}
+
+nav .menuContainer ul .searchMenuElement:hover {
+  color: #000;
+}
+
+nav .menuContainer ul .orangeMenuElement {
+  padding: 0 30px;
+  background-color: #FF6D24;
+  color: #fff;
+}
+
+nav .menuContainer ul .orangeMenuElement:hover {
+  color: #fff;
+}
+
+nav .menuContainer ul .orangeMenuElement .fa-envelope {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
