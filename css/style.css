@@ -90,4 +90,41 @@ nav .menuContainer ul .orangeMenuElement:hover {
 nav .menuContainer ul .orangeMenuElement .fa-envelope {
   margin-right: 10px;
 }
+
+.splide {
+  width: 100%;
+  height: 40vh;
+}
+
+.splide .splide__track .splide__list .splide__slide {
+  height: 40vh;
+}
+
+.splide .splide__track .splide__list .splide__slide--firstSlide {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/bg1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.splide .splide__track .splide__list .splide__slide--secondSlide {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/bg2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.splide .splide__track .splide__list .splide__slide--thirdSlide {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/bg3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.splide .splide__track .splide__list .splide__slide--fourthSlide {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/bg4.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */
