@@ -107,8 +107,23 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   height: 40vh;
 }
 
+.splide .splide__arrows .splide__arrow {
+  display: none;
+}
+
 .splide .splide__track .splide__list .splide__slide {
   height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 30px;
 }
 
 .splide .splide__track .splide__list .splide__slide--firstSlide {
