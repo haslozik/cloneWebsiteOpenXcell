@@ -8,6 +8,13 @@
         }
     }
 
+    .splide__pagination__page {
+        border-radius: 0;
+        width: 30px;
+        margin: 5px 10px;
+        height: 4px;
+    }
+
     .splide__track {
         .splide__list {
             .splide__slide {

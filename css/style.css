@@ -111,6 +111,13 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   display: none;
 }
 
+.splide .splide__pagination__page {
+  border-radius: 0;
+  width: 30px;
+  margin: 5px 10px;
+  height: 4px;
+}
+
 .splide .splide__track .splide__list .splide__slide {
   height: 40vh;
   display: -webkit-box;
@@ -168,7 +175,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
           justify-content: center;
 }
 
-.brandingContainer .brand {
+.brandingContainer .brandingElement {
   width: 12.5%;
   height: 100%;
   display: -webkit-box;
@@ -182,7 +189,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
           justify-content: center;
 }
 
-.brandingContainer .brand img {
+.brandingContainer .brandingElement img {
   height: 100%;
   -webkit-user-select: none;
      -moz-user-select: none;
