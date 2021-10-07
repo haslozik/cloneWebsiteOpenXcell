@@ -1,5 +1,4 @@
 /* slider */
-
 const config = {
     type    : 'loop',
 	perPage : 1,

@@ -1,0 +1,17 @@
+.informationsContainer {
+    background: url('../img/bgInfo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .informationsContent {
+        width: 60%;
+        min-width: 800px;
+
+        .informationsTextContainer {
+            
+        }
+    }
+}
