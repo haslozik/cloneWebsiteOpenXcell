@@ -1,17 +1,39 @@
 .informationsContainer {
-    background: url('../img/bgInfo.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
 
     .informationsContent {
-        width: 60%;
+        width: 50%;
         min-width: 800px;
+        margin: 60px auto;
 
         .informationsTextContainer {
-            
+            display: flex;
+
+            .informationTextContentLeft {
+                width: 35%;
+                min-width: 336px;
+
+                .informationTextUpperTitle {
+                    color: #ba03fc;
+                    letter-spacing: 1px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .informationTextContentRight {
+                width: 65%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .informationText {
+                    color: #555;
+                    padding: 15px 0 15px 60px;
+                    font-weight: 600;
+                    font-size: 11.5px;
+                    line-height: 2;
+                }
+            }
         }
     }
 }
