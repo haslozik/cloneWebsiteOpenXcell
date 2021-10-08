@@ -3,7 +3,7 @@
 
     .informationsContent {
         width: 50%;
-        min-width: 800px;
+        min-width: 1000px;
         margin: 60px auto;
 
         .informationsTextContainer {
@@ -44,18 +44,38 @@
 
             .informationsSquareElement {
                 flex: 0 0 calc(33.3% - 30px);
-                height: 250px;
+                height: 210px;
+                position: relative;
+                text-align: center;
+                color: #fff;
+                border-radius: 2px;
 
                 &--first {
                     margin-right: 30px;
+                    background: linear-gradient(rgba(79, 120, 129, 0.4),rgba(79, 120, 129, 0.4)),
+                    url('../img/sqrBg1.png');
                 }
 
                 &--second {
                     margin: 0 15px;
+                    background-color: #262050;
                 }
 
                 &--third {
                     margin-left: 30px;
+                    background: linear-gradient(rgba(79, 120, 129, 0.4),rgba(79, 120, 129, 0.4)),
+                    url('../img/sqrBg2.png');
+                }
+
+                .informationsSquareTitle {
+                    font-weight: 700;
+                    font-size: 25px;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%);
+                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
                 }
             }
         }

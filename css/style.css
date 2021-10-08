@@ -204,7 +204,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .informationsContainer .informationsContent {
   width: 50%;
-  min-width: 800px;
+  min-width: 1000px;
   margin: 60px auto;
 }
 
@@ -262,19 +262,40 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(33.3% - 30px);
           flex: 0 0 calc(33.3% - 30px);
-  height: 250px;
+  height: 210px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
 }
 
 .informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--first {
   margin-right: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(79, 120, 129, 0.4)), to(rgba(79, 120, 129, 0.4))), url("../img/sqrBg1.png");
+  background: linear-gradient(rgba(79, 120, 129, 0.4), rgba(79, 120, 129, 0.4)), url("../img/sqrBg1.png");
 }
 
 .informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--second {
   margin: 0 15px;
+  background-color: #262050;
 }
 
 .informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--third {
   margin-left: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(79, 120, 129, 0.4)), to(rgba(79, 120, 129, 0.4))), url("../img/sqrBg2.png");
+  background: linear-gradient(rgba(79, 120, 129, 0.4), rgba(79, 120, 129, 0.4)), url("../img/sqrBg2.png");
+}
+
+.informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement .informationsSquareTitle {
+  font-weight: 700;
+  font-size: 25px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 2px black;
 }
 
 /*
