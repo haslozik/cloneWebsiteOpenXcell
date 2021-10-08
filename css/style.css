@@ -246,6 +246,37 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   line-height: 2;
 }
 
+.informationsContainer .informationsContent .informationsSquaresContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+.informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(33.3% - 30px);
+          flex: 0 0 calc(33.3% - 30px);
+  height: 250px;
+}
+
+.informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--first {
+  margin-right: 30px;
+}
+
+.informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--second {
+  margin: 0 15px;
+}
+
+.informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--third {
+  margin-left: 30px;
+}
+
 /*
 
     colors:

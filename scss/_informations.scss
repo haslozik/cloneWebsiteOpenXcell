@@ -35,5 +35,29 @@
                 }
             }
         }
+
+        .informationsSquaresContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 40px;
+
+            .informationsSquareElement {
+                flex: 0 0 calc(33.3% - 30px);
+                height: 250px;
+
+                &--first {
+                    margin-right: 30px;
+                }
+
+                &--second {
+                    margin: 0 15px;
+                }
+
+                &--third {
+                    margin-left: 30px;
+                }
+            }
+        }
     }
 }
