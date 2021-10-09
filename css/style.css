@@ -298,6 +298,14 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   text-shadow: 1px 1px 2px black;
 }
 
+.informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement .informationsSquareCountText {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  opacity: .4;
+  font-size: 70px;
+}
+
 /*
 
     colors:
