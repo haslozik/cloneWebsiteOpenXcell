@@ -59,6 +59,28 @@
                 &--second {
                     margin: 0 15px;
                     background-color: #262050;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    .informationsSquareContentText {
+                        color: #ddd;
+                        font-size: 13px;
+                        line-height: 1.5;
+                        padding: 32px 32px 10px 32px;
+                    }
+
+                    .informationsSquareLink {
+                        color: #019aff;
+                        cursor: pointer;
+                        transition: transform .2s ease-in-out;
+
+                        &:hover {
+                            transform: translateY(-2px);
+                            color: #038be6;
+                        }
+                    }
                 }
 
                 &--third {

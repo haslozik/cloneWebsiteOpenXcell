@@ -278,6 +278,41 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 .informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--second {
   margin: 0 15px;
   background-color: #262050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--second .informationsSquareContentText {
+  color: #ddd;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 32px 32px 10px 32px;
+}
+
+.informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--second .informationsSquareLink {
+  color: #019aff;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--second .informationsSquareLink:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  color: #038be6;
 }
 
 .informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--third {
