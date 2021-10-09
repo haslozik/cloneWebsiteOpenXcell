@@ -262,7 +262,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(33.3% - 30px);
           flex: 0 0 calc(33.3% - 30px);
-  height: 210px;
+  height: 240px;
   position: relative;
   text-align: center;
   color: #fff;
@@ -288,7 +288,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement .informationsSquareTitle {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 27px;
   position: absolute;
   bottom: 20px;
   left: 50%;
