@@ -100,11 +100,21 @@
                 font-weight: 500;
                 color: #686868;
                 padding: 5px 10px;
+                cursor: default;
             }
         }
     }
 
     .rateTilesContainer {
         width: 400px;
+        display: flex;
+        align-items: center;
+
+        .rateTilesHalfElement {
+            height: 75%;
+            width: 160px;
+            background: #fff;
+            margin: 12.5% 20px;
+        }
     }
 }

@@ -464,10 +464,24 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   font-weight: 500;
   color: #686868;
   padding: 5px 10px;
+  cursor: default;
 }
 
 .rateContainer .rateTilesContainer {
   width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rateContainer .rateTilesContainer .rateTilesHalfElement {
+  height: 75%;
+  width: 160px;
+  background: #fff;
+  margin: 12.5% 20px;
 }
 
 /*
