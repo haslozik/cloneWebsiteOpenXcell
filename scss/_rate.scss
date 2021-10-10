@@ -1,0 +1,97 @@
+.rateContainer {
+    background: #fbf1ef;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px; //to delete
+
+    .rateTextTitle {
+        padding: 25px 0;
+        color: #ff9036;
+        font-weight: 600;
+    }
+
+    .rateDescription {
+        width: 600px;
+
+        .rateTextMainTitle {
+            font-size: 40px;
+        }
+
+        .rateTextContent {
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: 500;
+            color: #686868;
+            padding: 15px 0;
+        }
+
+        .rateAwards {
+            display: flex;
+
+            img {
+                width: 140px;
+                height: 77px;
+            }
+        }
+
+        .rateBtnsContainer {
+            padding: 30px 0;
+            display: flex;
+            align-items: center;
+            padding-bottom: 40px;
+
+            .rateAboutBtn {
+                border: 2px solid #ff841f;
+                background: #fff;
+                border-radius: 25px;
+                height: 45px;
+                padding: 10px 20px;
+                color: #ff841f;
+                font-weight: 600;
+                font-size: 14px;
+                cursor: pointer;
+                transition: .2s ease-in-out;
+                
+                &:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0 1px 10px #999;
+                }
+
+                .fa-arrow-right {
+                    font-weight: 600;
+                    font-size: 12px;
+                }
+            }
+
+            .ratePlayBtn {
+                margin-left: 15px;
+                height: 45px;
+                width: 45px;
+                border-radius: 50%;
+                color: #fff;
+                background: #ff841f;
+                border: 2px solid #ff841f;
+                cursor: pointer;
+                transition: .2s ease-in-out;
+                
+                &:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0 1px 10px #999;
+                }
+            }
+
+            .ratePlayBtnText {
+                font-size: 14px;
+                font-weight: 500;
+                color: #686868;
+                padding: 5px 10px;
+            }
+        }
+    }
+
+    .rateTilesContainer {
+        width: 400px;
+    }
+}

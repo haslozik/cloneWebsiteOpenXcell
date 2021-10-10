@@ -337,8 +337,124 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   position: absolute;
   right: 20px;
   bottom: 10px;
-  opacity: .4;
-  font-size: 70px;
+  opacity: .5;
+  font-size: 90px;
+}
+
+.rateContainer {
+  background: #fbf1ef;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+.rateContainer .rateTextTitle {
+  padding: 25px 0;
+  color: #ff9036;
+  font-weight: 600;
+}
+
+.rateContainer .rateDescription {
+  width: 600px;
+}
+
+.rateContainer .rateDescription .rateTextMainTitle {
+  font-size: 40px;
+}
+
+.rateContainer .rateDescription .rateTextContent {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #686868;
+  padding: 15px 0;
+}
+
+.rateContainer .rateDescription .rateAwards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rateContainer .rateDescription .rateAwards img {
+  width: 140px;
+  height: 77px;
+}
+
+.rateContainer .rateDescription .rateBtnsContainer {
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 40px;
+}
+
+.rateContainer .rateDescription .rateBtnsContainer .rateAboutBtn {
+  border: 2px solid #ff841f;
+  background: #fff;
+  border-radius: 25px;
+  height: 45px;
+  padding: 10px 20px;
+  color: #ff841f;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.rateContainer .rateDescription .rateBtnsContainer .rateAboutBtn:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 1px 10px #999;
+          box-shadow: 0 1px 10px #999;
+}
+
+.rateContainer .rateDescription .rateBtnsContainer .rateAboutBtn .fa-arrow-right {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.rateContainer .rateDescription .rateBtnsContainer .ratePlayBtn {
+  margin-left: 15px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  color: #fff;
+  background: #ff841f;
+  border: 2px solid #ff841f;
+  cursor: pointer;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.rateContainer .rateDescription .rateBtnsContainer .ratePlayBtn:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 1px 10px #999;
+          box-shadow: 0 1px 10px #999;
+}
+
+.rateContainer .rateDescription .rateBtnsContainer .ratePlayBtnText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #686868;
+  padding: 5px 10px;
+}
+
+.rateContainer .rateTilesContainer {
+  width: 400px;
 }
 
 /*
