@@ -17,6 +17,19 @@
 
         .rateTextMainTitle {
             font-size: 40px;
+            z-index: 99;
+            position: relative;
+
+            &::after {
+                content: '';                
+                display: block;
+                background: #ffc5b2;
+                width: 210px;
+                height: 10px;
+                position: absolute;
+                top: 32px;
+                z-index: -1;
+            }
         }
 
         .rateTextContent {

@@ -368,6 +368,19 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .rateContainer .rateDescription .rateTextMainTitle {
   font-size: 40px;
+  z-index: 99;
+  position: relative;
+}
+
+.rateContainer .rateDescription .rateTextMainTitle::after {
+  content: '';
+  display: block;
+  background: #ffc5b2;
+  width: 210px;
+  height: 10px;
+  position: absolute;
+  top: 32px;
+  z-index: -1;
 }
 
 .rateContainer .rateDescription .rateTextContent {
