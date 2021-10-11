@@ -344,6 +344,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 .rateContainer {
   background: #fbf1ef;
   width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -376,7 +377,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   content: '';
   display: block;
   background: #ffc5b2;
-  width: 210px;
+  width: 205px;
   height: 10px;
   position: absolute;
   top: 32px;
@@ -467,21 +468,43 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   cursor: default;
 }
 
-.rateContainer .rateTilesContainer {
-  width: 400px;
+.rateContainer .rateTilesElement {
+  width: 200px;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
 }
 
-.rateContainer .rateTilesContainer .rateTilesHalfElement {
-  height: 75%;
+.rateContainer .rateTilesElement .rateTile {
+  height: 220px;
   width: 160px;
   background: #fff;
-  margin: 12.5% 20px;
+  position: absolute;
+}
+
+.rateContainer .rateTilesElement .rateTile--first {
+  top: 35px;
+}
+
+.rateContainer .rateTilesElement .rateTile--second {
+  bottom: 100px;
+}
+
+.rateContainer .rateTilesElement .rateTile--third {
+  top: 100px;
+}
+
+.rateContainer .rateTilesElement .rateTile--fourth {
+  bottom: 35px;
 }
 
 /*
