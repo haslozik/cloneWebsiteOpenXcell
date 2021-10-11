@@ -357,14 +357,14 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   margin-bottom: 100px;
 }
 
-.rateContainer .rateTextTitle {
+.rateContainer .rateDescription {
+  width: 600px;
+}
+
+.rateContainer .rateDescription .rateTextTitle {
   padding: 25px 0;
   color: #ff9036;
   font-weight: 600;
-}
-
-.rateContainer .rateDescription {
-  width: 600px;
 }
 
 .rateContainer .rateDescription .rateTextMainTitle {
@@ -486,9 +486,10 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .rateContainer .rateTilesElement .rateTile {
   height: 220px;
-  width: 160px;
+  width: 175px;
   background: #fff;
   position: absolute;
+  border-radius: 12px;
 }
 
 .rateContainer .rateTilesElement .rateTile--first {
@@ -505,6 +506,25 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .rateContainer .rateTilesElement .rateTile--fourth {
   bottom: 35px;
+}
+
+.rateContainer .rateTilesElement .rateTile .rateTileTitle {
+  padding: 25px 20px 15px 20px;
+  color: #ff9036;
+  font-weight: 600;
+}
+
+.rateContainer .rateTilesElement .rateTile .rateTileNumber {
+  padding: 0 20px 15px 20px;
+  font-size: 29px;
+}
+
+.rateContainer .rateTilesElement .rateTile .rateTileContent {
+  color: #686868;
+  padding: 0 20px 15px 20px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 /*

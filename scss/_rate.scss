@@ -7,14 +7,14 @@
     justify-content: center;
     margin-bottom: 100px; //to delete
 
-    .rateTextTitle {
-        padding: 25px 0;
-        color: #ff9036;
-        font-weight: 600;
-    }
-
     .rateDescription {
         width: 600px;
+
+        .rateTextTitle {
+            padding: 25px 0;
+            color: #ff9036;
+            font-weight: 600;
+        }
 
         .rateTextMainTitle {
             font-size: 40px;
@@ -116,9 +116,10 @@
 
         .rateTile {
             height: 220px;
-            width: 160px;
+            width: 175px;
             background: #fff;
             position: absolute;
+            border-radius: 12px;
 
             &--first {
                 top: 35px;
@@ -134,6 +135,25 @@
 
             &--fourth {
                 bottom: 35px;
+            }
+
+            .rateTileTitle {
+                padding: 25px 20px 15px 20px;
+                color: #ff9036;
+                font-weight: 600;
+            }
+
+            .rateTileNumber {
+                padding: 0 20px 15px 20px;
+                font-size: 29px;
+            }
+
+            .rateTileContent {
+                color: #686868;
+                padding: 0 20px 15px 20px;
+                font-size: 13px;
+                line-height: 1.5;
+                font-weight: 500;
             }
         }
     }
