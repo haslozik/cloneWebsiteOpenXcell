@@ -539,7 +539,6 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  margin-bottom: 200px;
 }
 
 .servicesContainer .serviceBackgroundBlue {
@@ -715,12 +714,4 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   -webkit-box-shadow: 0 1px 10px #999;
           box-shadow: 0 1px 10px #999;
 }
-
-/*
-
-    purple clr #c02cc3
-
-    linear-gradient(90deg, rgba(234,51,138,1) 0%, rgba(194,38,205,1) 100%);
-
-*/
 /*# sourceMappingURL=style.css.map */
