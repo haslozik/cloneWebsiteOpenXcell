@@ -200,12 +200,24 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .informationsContainer {
   width: 100%;
+  position: relative;
+}
+
+.informationsContainer .informationsHalfBackground {
+  height: 265px;
+  width: 100%;
+  z-index: -1;
+  background: #f2f2f2;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .informationsContainer .informationsContent {
   width: 50%;
   min-width: 1000px;
-  margin: 60px auto 80px auto;
+  margin: 0 auto;
+  padding: 60px 0 80px 0;
 }
 
 .informationsContainer .informationsContent .informationsTextContainer {
