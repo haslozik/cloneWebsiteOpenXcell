@@ -1,0 +1,53 @@
+.technologiesContainer {
+    width: 900px;
+    margin: 20px auto 0 auto;
+    margin-bottom: 200px; //to delete
+
+    .technologiesTitleText {
+        font-size: 40px;
+        z-index: 99;
+        position: relative;
+        font-weight: 700;
+        text-align: center;
+    
+        &::after {
+            content: '';                
+            display: block;
+            background: #ffc5b2;
+            width: 283px;
+            height: 10px;
+            position: absolute;
+            top: 33px;
+            left: 162px;
+            z-index: -1;
+        }
+    }
+
+    .technologiesBtnContainer {
+        width: 100%;
+        margin-top: 50px;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+
+        .technologiesBtn {
+            margin-bottom: -1px;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            width: 120px;
+            padding: 10px 0;
+            background: transparent;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: .15s;
+
+            &:hover {
+                color: #ff5b2e;
+                border-bottom: 1px solid #ff5b2e;
+            }
+        }
+    }
+}
+
+

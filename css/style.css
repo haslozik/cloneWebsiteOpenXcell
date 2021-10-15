@@ -714,4 +714,61 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   -webkit-box-shadow: 0 1px 10px #999;
           box-shadow: 0 1px 10px #999;
 }
+
+.technologiesContainer {
+  width: 900px;
+  margin: 20px auto 0 auto;
+  margin-bottom: 200px;
+}
+
+.technologiesContainer .technologiesTitleText {
+  font-size: 40px;
+  z-index: 99;
+  position: relative;
+  font-weight: 700;
+  text-align: center;
+}
+
+.technologiesContainer .technologiesTitleText::after {
+  content: '';
+  display: block;
+  background: #ffc5b2;
+  width: 283px;
+  height: 10px;
+  position: absolute;
+  top: 33px;
+  left: 162px;
+  z-index: -1;
+}
+
+.technologiesContainer .technologiesBtnContainer {
+  width: 100%;
+  margin-top: 50px;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.technologiesContainer .technologiesBtnContainer .technologiesBtn {
+  margin-bottom: -1px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 120px;
+  padding: 10px 0;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: .15s;
+  transition: .15s;
+}
+
+.technologiesContainer .technologiesBtnContainer .technologiesBtn:hover {
+  color: #ff5b2e;
+  border-bottom: 1px solid #ff5b2e;
+}
 /*# sourceMappingURL=style.css.map */
