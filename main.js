@@ -1,6 +1,6 @@
 /* slider */
 const config = {
-    type    : 'loop',
+    type    : 'fade',
 	perPage : 1,
 	autoplay: true
 }
