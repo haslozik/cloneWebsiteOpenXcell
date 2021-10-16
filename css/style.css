@@ -753,34 +753,21 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   z-index: -1;
 }
 
-.technologiesContainer .technologiesBtnContainer {
-  width: 100%;
-  margin-top: 50px;
-  border-bottom: 1px solid #ccc;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.technologiesContainer nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
 }
 
-.technologiesContainer .technologiesBtnContainer .technologiesBtn {
-  margin-bottom: -1px;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  width: 120px;
-  padding: 10px 0;
-  background: transparent;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  -webkit-transition: .15s;
-  transition: .15s;
-}
-
-.technologiesContainer .technologiesBtnContainer .technologiesBtn:hover {
+.technologiesContainer nav a.active {
   color: #ff5b2e;
-  border-bottom: 1px solid #ff5b2e;
+}
+
+.technologiesContainer #pages > div {
+  display: none;
+}
+
+.technologiesContainer #pages .active {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

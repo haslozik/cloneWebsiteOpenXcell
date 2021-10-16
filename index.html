@@ -10,7 +10,11 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <!--font icons-->
     <script src="https://kit.fontawesome.com/a821291b86.js" crossorigin="anonymous"></script>
+
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!--slider-->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
@@ -250,12 +254,22 @@
         <p class="technologiesTitleText">
             Technologies we work with
         </p>
-        <div class="technologiesBtnContainer">
-            <button class="technologiesBtn">Mobile</button>
-            <button class="technologiesBtn">Front End</button>
-            <button class="technologiesBtn">Database</button>
-            <button class="technologiesBtn">CMS</button>
-        </div>
+        
+        <nav>
+            <ul>
+              <li><a href="#a" class="active">a</a></li>
+              <li><a href="#b">b</a></li>
+              <li><a href="#c">c</a></li>
+              <li><a href="#d">d</a></li>
+            </ul>
+          </nav>
+          
+          <div id="pages">
+            <div id="a" class="active">A text</div>
+            <div id="b">B text</div>
+            <div id="c">C text</div>
+            <div id="d">D text</div>
+          </div>
     </div>
 
 
