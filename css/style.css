@@ -729,7 +729,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .technologiesContainer {
   width: 900px;
-  margin: 20px auto 0 auto;
+  margin: 10px auto 0 auto;
   margin-bottom: 200px;
 }
 
@@ -753,17 +753,54 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   z-index: -1;
 }
 
-.technologiesContainer nav li {
+.technologiesContainer .technologiesMenu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+  border-bottom: 2px solid #ccc;
+  cursor: default;
+}
+
+.technologiesContainer .technologiesMenu .technologiesMenuElement {
   display: inline-block;
-  list-style: none;
-  padding: 10px;
+  padding: 18px 15px;
 }
 
-.technologiesContainer nav a.active {
+.technologiesContainer .technologiesMenu .technologiesMenuElement .active {
   color: #ff5b2e;
+  border-bottom: 2px solid #ff5b2e;
 }
 
-.technologiesContainer #technologiesContent > div {
+.technologiesContainer .technologiesMenu .technologiesMenuElement a {
+  text-decoration: none;
+  margin-bottom: -2px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  color: #111;
+  padding: 10px 0 18px 0;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: .15s;
+  transition: .15s;
+}
+
+.technologiesContainer .technologiesMenu .technologiesMenuElement a:hover {
+  color: #ff5b2e;
+  border-bottom: 2px solid #ff5b2e;
+}
+
+.technologiesContainer #technologiesContent .technologiesContantElement {
   display: none;
 }
 
