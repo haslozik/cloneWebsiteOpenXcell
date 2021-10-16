@@ -9,7 +9,7 @@ new Splide( '.splide', config).mount();
 /* technologies section */
 $("div a").click(function( e ){
 	e.preventDefault();
-	$("div .active, #pages .active").removeClass("active");
+	$("div .active, #technologiesContent .active").removeClass("active");
 	$(this).add( $(this.hash) ).addClass("active");
 });
 

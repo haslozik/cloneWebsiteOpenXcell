@@ -204,7 +204,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 }
 
 .informationsContainer .informationsHalfBackground {
-  height: 265px;
+  height: 55%;
   width: 100%;
   z-index: -1;
   background: #f2f2f2;
@@ -555,7 +555,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .servicesContainer .serviceBackgroundBlue {
   background: #d8effd;
-  height: 305px;
+  height: 44%;
   width: 100%;
   z-index: 1;
   position: absolute;
@@ -763,11 +763,11 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   color: #ff5b2e;
 }
 
-.technologiesContainer #pages > div {
+.technologiesContainer #technologiesContent > div {
   display: none;
 }
 
-.technologiesContainer #pages .active {
+.technologiesContainer #technologiesContent .active {
   display: block;
 }
 /*# sourceMappingURL=style.css.map */
