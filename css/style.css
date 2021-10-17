@@ -800,8 +800,51 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   border-bottom: 2px solid #ff5b2e;
 }
 
-.technologiesContainer #technologiesContent .technologiesContantElement {
+.technologiesContainer #technologiesContent .technologiesContentElement {
   display: none;
+}
+
+.technologiesContainer #technologiesContent .technologiesContentElement .technologiesTilesContainer {
+  margin-top: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.technologiesContainer #technologiesContent .technologiesContentElement .technologiesTilesContainer .technologyTile {
+  background: #f7f7f7;
+  border-radius: 12px;
+  padding: 15px;
+  width: 116px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.technologiesContainer #technologiesContent .technologiesContentElement .technologiesTilesContainer .technologyTile img {
+  width: 67px;
+  height: 67px;
+}
+
+.technologiesContainer #technologiesContent .technologiesContentElement .technologiesTilesContainer .technologyTile .technologyTitle {
+  padding: 10px 0;
+  font-weight: 500;
 }
 
 .technologiesContainer #technologiesContent .active {

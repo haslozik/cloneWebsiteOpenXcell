@@ -64,12 +64,41 @@
     }
 
     #technologiesContent {
-        .technologiesContantElement {
-            display:none;
+        .technologiesContentElement {
+            display: none;
+
+            .technologiesTilesContainer {
+                margin-top: 50px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+
+                .technologyTile {
+                    background: #f7f7f7;
+                    border-radius: 12px;
+                    padding: 15px;
+                    width: 116px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img {
+                        width: 67px;
+                        height: 67px;
+                    }
+
+                    .technologyTitle {
+                        padding: 10px 0;
+                        font-weight: 500;
+                    }
+                }
+            }
         }
 
         .active {
-            display:block;
+            display: block;
         }
     }
 }
