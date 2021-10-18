@@ -730,7 +730,6 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 .technologiesContainer {
   width: 900px;
   margin: 10px auto 0 auto;
-  margin-bottom: 200px;
 }
 
 .technologiesContainer .technologiesTitleText {
@@ -849,5 +848,73 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .technologiesContainer #technologiesContent .active {
   display: block;
+}
+
+.ourWorkContainer {
+  width: 70%;
+  margin: 100px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 300px;
+}
+
+.ourWorkContainer .ourWorkExperience .ourWorkTitle {
+  font-weight: 500;
+}
+
+.ourWorkContainer .ourWorkExperience .ourWorkSubtitle {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 20px 0 30px 0;
+}
+
+.ourWorkContainer .ourWorkExperience .activeDesc {
+  color: #111 !important;
+  border-left: 3px solid #1e86cb !important;
+}
+
+.ourWorkContainer .ourWorkExperience .ourWorkExperienceDescription {
+  font-size: 19px;
+  padding: 0 10px;
+  margin: 30px 0;
+  font-weight: 500;
+  border-left: 3px solid #b0b0b0;
+  color: #b7b7b7;
+  cursor: pointer;
+  -webkit-transition: .15s;
+  transition: .15s;
+}
+
+.ourWorkContainer .ourWorkExperience .ourWorkExperienceDescription:hover {
+  color: #111 !important;
+  border-left: 3px solid #1e86cb !important;
+}
+
+.ourWorkContainer .ourWorkExperience .ourWorkViewBtn {
+  width: 170px;
+  height: 45px;
+  margin-top: 22px;
+  background: #1e86cb;
+  color: #fff;
+  border: 2px solid #1e86cb;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.ourWorkContainer .ourWorkExperience .ourWorkViewBtn:hover {
+  background: #fff;
+  color: #1e86cb;
+}
+
+.ourWorkContainer .ourWorkImg img {
+  height: auto;
+  width: 70%;
 }
 /*# sourceMappingURL=style.css.map */

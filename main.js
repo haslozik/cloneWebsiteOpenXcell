@@ -13,3 +13,8 @@ $("div a").click(function( e ){
 	$(this).add( $(this.hash) ).addClass("active");
 });
 
+/* our work experience */
+$(document).on('click', '.ourWorkExperienceDescription', function() {
+	$(this).addClass('activeDesc').siblings().removeClass('activeDesc');
+});
+
