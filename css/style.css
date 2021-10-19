@@ -947,15 +947,106 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
       grid-template-columns: 300px 300px 300px 300px;
   -ms-grid-rows: 300px 300px;
       grid-template-rows: 300px 300px;
-  margin-bottom: 200px;
+  position: relative;
+}
+
+.ourTeamContainer .ourTeamBgElement {
+  background: url("../img/ourTeamBgImg.png");
+  background-position: center;
+  height: 300px;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+.ourTeamContainer .ourTeamSquare {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ourTeamContainer .ourTeamSquare img {
+  height: 100%;
+  width: 100%;
+}
+
+.ourTeamContainer .ourTeamSquare .ourTeamName {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ourTeamContainer .ourTeamSquare .ourTeamRole {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 10px 0;
+}
+
+.ourTeamContainer .ourTeamSquare .ourTeamRole--color1 {
+  color: #7c90bb;
+}
+
+.ourTeamContainer .ourTeamSquare .ourTeamRole--color2 {
+  color: #e57bff;
+}
+
+.ourTeamContainer .ourTeamSquare .ourTeamRole--color3 {
+  color: #edd26f;
+}
+
+.ourTeamContainer .ourTeamSquare .ourTeamContent {
+  text-align: center;
+  padding: 3px 15px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.ourTeamContainer .ourTeamSquare .ourTeamSocialsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ourTeamContainer .ourTeamSquare .ourTeamSocialsContainer i {
+  font-size: 17px;
+  color: #222;
+  margin: 15px 16px;
+  cursor: pointer;
+}
+
+.ourTeamContainer .ourTeamSquare .ourTeamSocialsContainer i:hover {
+  color: #666;
 }
 
 .ourTeamContainer .ourTeamSquare--second, .ourTeamContainer .ourTeamSquare--fourth, .ourTeamContainer .ourTeamSquare--seventh {
   background: #fff;
+  color: #111;
 }
 
 .ourTeamContainer .ourTeamSquare--fifth {
   background: #e57bff;
   color: #fff;
+}
+
+.ourTeamContainer .ourTeamSquare--fifth i {
+  color: #fff !important;
+}
+
+.ourTeamContainer .ourTeamSquare--fifth i:hover {
+  color: #e7e6e6 !important;
 }
 /*# sourceMappingURL=style.css.map */
