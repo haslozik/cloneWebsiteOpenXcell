@@ -1049,4 +1049,65 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 .ourTeamContainer .ourTeamSquare--fifth i:hover {
   color: #e7e6e6 !important;
 }
+
+.shortContactContainer {
+  height: 250px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#454545), to(#474747));
+  background: linear-gradient(90deg, #454545 0%, #474747 100%);
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.shortContactContainer .shortContactContentText {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.4;
+}
+
+.shortContactContainer .shortContactContentText span {
+  color: #d2a98e;
+}
+
+.shortContactContainer .shortContactBtnsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 100px;
+}
+
+.shortContactContainer .shortContactBtnsContainer .shortContactBtn {
+  padding: 16px 45px;
+  outline: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.shortContactContainer .shortContactBtnsContainer .shortContactBtn:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.shortContactContainer .shortContactBtnsContainer .shortContactBtn--talk {
+  color: #43a2ea;
+  border: 2px solid #fff;
+  margin-right: 30px;
+}
+
+.shortContactContainer .shortContactBtnsContainer .shortContactBtn--info {
+  background: #d2a98e;
+  border: 2px solid #d2a98e;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

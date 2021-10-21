@@ -1,0 +1,48 @@
+.shortContactContainer {
+    height: 250px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(69,69,69,1) 0%, rgb(71, 71, 71) 100%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .shortContactContentText {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 1.4;
+
+        span {
+            color: #d2a98e;
+        }
+    }
+
+    .shortContactBtnsContainer {
+        display: flex;
+        margin-left: 100px;
+
+        .shortContactBtn {
+            padding: 16px 45px;
+            outline: none;
+            border-radius: 6px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: .2s;
+
+            &:hover {
+                transform: translateY(-3px);
+            }
+
+            &--talk {
+                color: #43a2ea;
+                border: 2px solid #fff;
+                margin-right: 30px;
+            }
+            &--info {
+                background: #d2a98e;
+                border: 2px solid #d2a98e;
+                color: #fff;
+            }
+        }
+    }
+}
