@@ -6,14 +6,6 @@ const config = {
 }
 new Splide( '.splide', config).mount();
 
-/* slider recommendation */
-const configRecommendation = {
-    type    : 'loop',
-	perPage : 2,
-	autoplay: true
-}
-new Splide( '#splideRecommendation', configRecommendation).mount();
-
 /* technologies section */
 $("div a").click(function(e){
 	e.preventDefault();

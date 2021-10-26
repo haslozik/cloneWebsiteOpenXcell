@@ -1111,24 +1111,4 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   border: 2px solid #d2a98e;
   color: #fff;
 }
-
-.splide {
-  background: #f7f7f7;
-  margin-bottom: 200px;
-}
-
-.splide .splide__track {
-  width: 85%;
-  margin: 0 auto;
-}
-
-.splide .splide__track .splide__list .splide__slide {
-  height: 70%;
-  background: #f12321;
-  margin: 50px;
-}
-
-.splide .splide__pagination__page {
-  display: none;
-}
 /*# sourceMappingURL=style.css.map */
