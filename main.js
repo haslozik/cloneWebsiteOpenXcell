@@ -6,11 +6,19 @@ const config = {
 }
 new Splide( '.splide', config).mount();
 
+/* slider recommendation */
+const configRecommendation = {
+    type    : 'loop',
+	perPage : 2,
+	autoplay: true
+}
+new Splide( '#splideRecommendation', configRecommendation).mount();
+
 /* technologies section */
-$("div a").click(function( e ){
+$("div a").click(function(e){
 	e.preventDefault();
 	$("div .active, #technologiesContent .active").removeClass("active");
-	$(this).add( $(this.hash) ).addClass("active");
+	$(this).add($(this.hash)).addClass("active");
 });
 
 /* our work experience */
