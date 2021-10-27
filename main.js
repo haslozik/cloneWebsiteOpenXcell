@@ -1,10 +1,19 @@
 /* slider */
 const config = {
-    type    : 'fade',
+    type    : "fade",
 	perPage : 1,
 	autoplay: true
 }
-new Splide( '.splide', config).mount();
+new Splide(".splide", config).mount();
+
+/* top info section */
+$(".topInfoBtn")
+	.mouseover(function() {
+		$(".topInfoBtn .fa-envelope").css("transition", ".2s").css("transform", "translateX(4px)");
+	})
+	.mouseleave(function() {
+		$(".topInfoBtn .fa-envelope").css("transform", "translateX(-4px)");
+	})
 
 /* technologies section */
 $("div a").click(function(e){
@@ -14,7 +23,7 @@ $("div a").click(function(e){
 });
 
 /* our work experience */
-$(document).on('click', '.ourWorkExperienceDescription', function() {
-	$(this).addClass('activeDesc').siblings().removeClass('activeDesc');
+$(document).on("click", ".ourWorkExperienceDescription", function() {
+	$(this).addClass("activeDesc").siblings().removeClass("activeDesc");
 });
 
