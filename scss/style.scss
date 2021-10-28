@@ -1,26 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
 $fonts: (
-    font-1: 'Montserrat',
-    font-2: 'Roboto Mono'
+  font-1: "Montserrat",
+  font-2: "Roboto Mono",
 );
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: map-get($map: $fonts, $key: font-1);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: map-get($map: $fonts, $key: font-1);
 }
 
 /* components */
-@import '_navBar';
-@import '_topInfo';
-@import '_branding';
-@import '_informations';
-@import '_rate';
-@import '_services';
-@import '_technologies';
-@import '_ourWork';
-@import '_ourTeam';
-@import '_shortContact';
-@import '_recommendations';
+@import "_navBar";
+@import "_topInfo";
+@import "_branding";
+@import "_informations";
+@import "_rate";
+@import "_services";
+@import "_technologies";
+@import "_ourWork";
+@import "_ourTeam";
+@import "_shortContact";
+@import "_recommendations";

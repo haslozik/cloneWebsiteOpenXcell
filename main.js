@@ -1,8 +1,8 @@
 /* slider */
 const config = {
-    type    : "fade",
-	perPage : 1,
-	autoplay: true
+    type    : "loop",
+	perPage : 2,
+	// autoplay: true
 }
 new Splide(".splide", config).mount();
 

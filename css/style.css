@@ -1119,4 +1119,14 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   border: 2px solid #d2a98e;
   color: #fff;
 }
+
+.splide {
+  width: 100%;
+  background: #f7f7f7;
+  height: 100%;
+}
+
+.splide .splide__slide {
+  background: #fff;
+}
 /*# sourceMappingURL=style.css.map */
