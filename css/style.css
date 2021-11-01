@@ -1120,13 +1120,42 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   color: #fff;
 }
 
-.splide {
-  width: 100%;
+.recommendationsSlider {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #f7f7f7;
-  height: 100%;
+  margin-bottom: 200px;
 }
 
-.splide .splide__slide {
+.recommendationsSlider .sliderTitle {
+  font-family: "Roboto Mono";
+  color: #000;
+  font-size: 50px;
+  margin: 50px 0 35px 0;
+}
+
+.recommendationsSlider .splide {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.recommendationsSlider .splide .splide__arrows,
+.recommendationsSlider .splide .splide__pagination {
+  display: none;
+}
+
+.recommendationsSlider .splide .splide__slide {
   background: #fff;
+  height: 100%;
+  background: #32ff84;
 }
 /*# sourceMappingURL=style.css.map */
