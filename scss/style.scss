@@ -9,7 +9,6 @@ $fonts: (
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: map-get($map: $fonts, $key: font-1);
 }
 
 /* components */

@@ -1,72 +1,70 @@
 nav {
+  height: 76px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: map-get($map: $fonts, $key: font-1);
+
+  img {
+    margin-left: 30px;
+  }
+
+  .menuContainer {
     height: 76px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-    img {
-        margin-left: 30px;
-    }
+    ul {
+      list-style: none;
+      height: 76px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-    .menuContainer {
+      li {
+        padding: 0 20px;
+        text-align: center;
         height: 76px;
-
-        ul {
-            list-style: none;
-            height: 76px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            li {
-                padding: 0 20px;
-                text-align: center;
-                height: 76px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-weight: 500;
-                cursor: pointer;
-                &:hover {
-                    color: #FF6D24;
-                }
-
-                .fa-chevron-down {
-                    margin-left: 10px;
-                }
-            }
-
-            .searchMenuElement {
-                padding: 0 40px;
-                &:hover {
-                    color: #000;
-                }
-
-                .fa-search {
-                    transition: .2s;
-                    &:hover {
-                        transform: scale(1.15);
-                        color: #FF6D24;
-                    }
-                }
-            }
-
-            .orangeMenuElement {
-                padding: 0 30px;
-                background-color: #FF6D24;
-                color: #fff;
-                &:hover {
-                    color: #fff;
-                }
-
-                .fa-envelope {
-                    margin-right: 10px;
-                }
-            }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        cursor: pointer;
+        &:hover {
+          color: #ff6d24;
         }
+
+        .fa-chevron-down {
+          margin-left: 10px;
+        }
+      }
+
+      .searchMenuElement {
+        padding: 0 40px;
+        &:hover {
+          color: #000;
+        }
+
+        .fa-search {
+          transition: 0.2s;
+          &:hover {
+            transform: scale(1.15);
+            color: #ff6d24;
+          }
+        }
+      }
+
+      .orangeMenuElement {
+        padding: 0 30px;
+        background-color: #ff6d24;
+        color: #fff;
+        &:hover {
+          color: #fff;
+        }
+
+        .fa-envelope {
+          margin-right: 10px;
+        }
+      }
     }
+  }
 }
-
-
-

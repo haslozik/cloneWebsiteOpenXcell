@@ -1,159 +1,160 @@
 .rateContainer {
-    background: #fbf1ef;
-    width: 100%;
-    height: 100%;
+  background: #fbf1ef;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: map-get($map: $fonts, $key: font-1);
+
+  .rateDescription {
+    width: 600px;
+
+    .rateTextTitle {
+      padding: 25px 0;
+      color: #ff9036;
+      font-weight: 600;
+    }
+
+    .rateTextMainTitle {
+      font-size: 40px;
+      z-index: 99;
+      position: relative;
+
+      &::after {
+        content: "";
+        display: block;
+        background: #ffc5b2;
+        width: 205px;
+        height: 10px;
+        position: absolute;
+        top: 32px;
+        z-index: -1;
+      }
+    }
+
+    .rateTextContent {
+      font-size: 14px;
+      line-height: 1.5;
+      font-weight: 500;
+      color: #686868;
+      padding: 15px 0;
+    }
+
+    .rateAwards {
+      display: flex;
+
+      img {
+        width: 140px;
+        height: 77px;
+      }
+    }
+
+    .rateBtnsContainer {
+      padding: 30px 0;
+      display: flex;
+      align-items: center;
+      padding-bottom: 40px;
+
+      .rateAboutBtn {
+        border: 2px solid #ff841f;
+        background: #fff;
+        border-radius: 25px;
+        height: 45px;
+        padding: 10px 20px;
+        color: #ff841f;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 1px 10px #999;
+        }
+
+        .fa-arrow-right {
+          font-weight: 600;
+          font-size: 12px;
+        }
+      }
+
+      .ratePlayBtn {
+        margin-left: 15px;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        color: #fff;
+        background: #ff841f;
+        border: 2px solid #ff841f;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 1px 10px #999;
+        }
+      }
+
+      .ratePlayBtnText {
+        font-size: 14px;
+        font-weight: 500;
+        color: #686868;
+        padding: 5px 10px;
+        cursor: default;
+      }
+    }
+  }
+
+  .rateTilesElement {
+    width: 200px;
+    height: 600px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    position: relative;
 
-    .rateDescription {
-        width: 600px;
+    .rateTile {
+      height: 220px;
+      width: 175px;
+      background: #fff;
+      position: absolute;
+      border-radius: 12px;
 
-        .rateTextTitle {
-            padding: 25px 0;
-            color: #ff9036;
-            font-weight: 600;
-        }
+      &--first {
+        top: 35px;
+      }
 
-        .rateTextMainTitle {
-            font-size: 40px;
-            z-index: 99;
-            position: relative;
+      &--second {
+        bottom: 100px;
+      }
 
-            &::after {
-                content: '';                
-                display: block;
-                background: #ffc5b2;
-                width: 205px;
-                height: 10px;
-                position: absolute;
-                top: 32px;
-                z-index: -1;
-            }
-        }
+      &--third {
+        top: 100px;
+      }
 
-        .rateTextContent {
-            font-size: 14px;
-            line-height: 1.5;
-            font-weight: 500;
-            color: #686868;
-            padding: 15px 0;
-        }
+      &--fourth {
+        bottom: 35px;
+      }
 
-        .rateAwards {
-            display: flex;
+      .rateTileTitle {
+        padding: 25px 20px 15px 20px;
+        color: #ff9036;
+        font-weight: 600;
+      }
 
-            img {
-                width: 140px;
-                height: 77px;
-            }
-        }
+      .rateTileNumber {
+        padding: 0 20px 15px 20px;
+        font-size: 29px;
+      }
 
-        .rateBtnsContainer {
-            padding: 30px 0;
-            display: flex;
-            align-items: center;
-            padding-bottom: 40px;
-
-            .rateAboutBtn {
-                border: 2px solid #ff841f;
-                background: #fff;
-                border-radius: 25px;
-                height: 45px;
-                padding: 10px 20px;
-                color: #ff841f;
-                font-weight: 600;
-                font-size: 14px;
-                cursor: pointer;
-                transition: .2s ease-in-out;
-                
-                &:hover {
-                    transform: translateY(-3px);
-                    box-shadow: 0 1px 10px #999;
-                }
-
-                .fa-arrow-right {
-                    font-weight: 600;
-                    font-size: 12px;
-                }
-            }
-
-            .ratePlayBtn {
-                margin-left: 15px;
-                height: 45px;
-                width: 45px;
-                border-radius: 50%;
-                color: #fff;
-                background: #ff841f;
-                border: 2px solid #ff841f;
-                cursor: pointer;
-                transition: .2s ease-in-out;
-                
-                &:hover {
-                    transform: translateY(-3px);
-                    box-shadow: 0 1px 10px #999;
-                }
-            }
-
-            .ratePlayBtnText {
-                font-size: 14px;
-                font-weight: 500;
-                color: #686868;
-                padding: 5px 10px;
-                cursor: default;
-            }
-        }
+      .rateTileContent {
+        color: #686868;
+        padding: 0 20px 15px 20px;
+        font-size: 13px;
+        line-height: 1.5;
+        font-weight: 500;
+      }
     }
-
-    .rateTilesElement {
-        width: 200px;
-        height: 600px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        position: relative;
-
-        .rateTile {
-            height: 220px;
-            width: 175px;
-            background: #fff;
-            position: absolute;
-            border-radius: 12px;
-
-            &--first {
-                top: 35px;
-            }
-
-            &--second {
-                bottom: 100px;
-            }
-
-            &--third {
-                top: 100px;
-            }
-
-            &--fourth {
-                bottom: 35px;
-            }
-
-            .rateTileTitle {
-                padding: 25px 20px 15px 20px;
-                color: #ff9036;
-                font-weight: 600;
-            }
-
-            .rateTileNumber {
-                padding: 0 20px 15px 20px;
-                font-size: 29px;
-            }
-
-            .rateTileContent {
-                color: #686868;
-                padding: 0 20px 15px 20px;
-                font-size: 13px;
-                line-height: 1.5;
-                font-weight: 500;
-            }
-        }
-    }
+  }
 }

@@ -1,125 +1,132 @@
 .informationsContainer {
+  width: 100%;
+  position: relative;
+  font-family: map-get($map: $fonts, $key: font-1);
+
+  .informationsHalfBackground {
+    height: 55%;
     width: 100%;
-    position: relative;
+    z-index: -1;
+    background: #f2f2f2;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
-    .informationsHalfBackground {
-        height: 55%;
-        width: 100%;
-        z-index: -1;
-        background: #f2f2f2;
-        position: absolute;
-        top: 0;
-        left: 0;
+  .informationsContent {
+    width: 50%;
+    min-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0 80px 0;
+
+    .informationsTextContainer {
+      display: flex;
+
+      .informationTextContentLeft {
+        width: 35%;
+        min-width: 336px;
+
+        .informationTextUpperTitle {
+          color: #ba03fc;
+          letter-spacing: 1px;
+          margin-bottom: 10px;
+        }
+      }
+
+      .informationTextContentRight {
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .informationText {
+          color: #555;
+          padding: 15px 0 15px 60px;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 2;
+        }
+      }
     }
 
-    .informationsContent {
-        width: 50%;
-        min-width: 1000px;
-        margin: 0 auto;
-        padding: 60px 0 80px 0;
+    .informationsSquaresContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
 
-        .informationsTextContainer {
-            display: flex;
+      .informationsSquareElement {
+        flex: 0 0 calc(33.3% - 30px);
+        height: 240px;
+        position: relative;
+        text-align: center;
+        color: #fff;
+        border-radius: 2px;
 
-            .informationTextContentLeft {
-                width: 35%;
-                min-width: 336px;
-
-                .informationTextUpperTitle {
-                    color: #ba03fc;
-                    letter-spacing: 1px;
-                    margin-bottom: 10px;
-                }
-            }
-
-            .informationTextContentRight {
-                width: 65%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                .informationText {
-                    color: #555;
-                    padding: 15px 0 15px 60px;
-                    font-weight: 600;
-                    font-size: 12px;
-                    line-height: 2;
-                }
-            }
+        &--first {
+          margin-right: 30px;
+          background: linear-gradient(
+              rgba(79, 120, 129, 0.4),
+              rgba(79, 120, 129, 0.4)
+            ),
+            url("../img/sqrBg1.png");
         }
 
-        .informationsSquaresContainer {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top: 40px;
+        &--second {
+          margin: 0 15px;
+          background-color: #262050;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
 
-            .informationsSquareElement {
-                flex: 0 0 calc(33.3% - 30px);
-                height: 240px;
-                position: relative;
-                text-align: center;
-                color: #fff;
-                border-radius: 2px;
+          .informationsSquareContentText {
+            color: #ddd;
+            font-size: 13px;
+            line-height: 1.5;
+            padding: 32px 32px 10px 32px;
+          }
 
-                &--first {
-                    margin-right: 30px;
-                    background: linear-gradient(rgba(79, 120, 129, 0.4),rgba(79, 120, 129, 0.4)),
-                    url('../img/sqrBg1.png');
-                }
+          .informationsSquareLink {
+            color: #019aff;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
 
-                &--second {
-                    margin: 0 15px;
-                    background-color: #262050;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-
-                    .informationsSquareContentText {
-                        color: #ddd;
-                        font-size: 13px;
-                        line-height: 1.5;
-                        padding: 32px 32px 10px 32px;
-                    }
-
-                    .informationsSquareLink {
-                        color: #019aff;
-                        cursor: pointer;
-                        transition: transform .2s ease-in-out;
-
-                        &:hover {
-                            transform: translateY(-2px);
-                            color: #038be6;
-                        }
-                    }
-                }
-
-                &--third {
-                    margin-left: 30px;
-                    background: linear-gradient(rgba(79, 120, 129, 0.4),rgba(79, 120, 129, 0.4)),
-                    url('../img/sqrBg2.png');
-                }
-
-                .informationsSquareTitle {
-                    font-weight: 700;
-                    font-size: 27px;
-                    position: absolute;
-                    bottom: 20px;
-                    left: 50%;
-                    margin-right: -50%;
-                    transform: translate(-50%, -50%);
-                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
-                }
-
-                .informationsSquareCountText {
-                    position: absolute;
-                    right: 20px;
-                    bottom: 10px;
-                    opacity: .5;
-                    font-size: 90px;
-                }
+            &:hover {
+              transform: translateY(-2px);
+              color: #038be6;
             }
+          }
         }
+
+        &--third {
+          margin-left: 30px;
+          background: linear-gradient(
+              rgba(79, 120, 129, 0.4),
+              rgba(79, 120, 129, 0.4)
+            ),
+            url("../img/sqrBg2.png");
+        }
+
+        .informationsSquareTitle {
+          font-weight: 700;
+          font-size: 27px;
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+        }
+
+        .informationsSquareCountText {
+          position: absolute;
+          right: 20px;
+          bottom: 10px;
+          opacity: 0.5;
+          font-size: 90px;
+        }
+      }
     }
+  }
 }

@@ -2,7 +2,7 @@
 const config = {
     type    : "loop",
 	perPage : 2,
-	gap: '60px',
+	gap: '30px'
 	// autoplay: true
 }
 new Splide(".splide", config).mount();

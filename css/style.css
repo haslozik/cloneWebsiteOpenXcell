@@ -5,7 +5,6 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Montserrat";
 }
 
 /* components */
@@ -21,6 +20,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Montserrat";
 }
 
 nav img {
@@ -63,7 +63,7 @@ nav .menuContainer ul li {
 }
 
 nav .menuContainer ul li:hover {
-  color: #FF6D24;
+  color: #ff6d24;
 }
 
 nav .menuContainer ul li .fa-chevron-down {
@@ -79,19 +79,19 @@ nav .menuContainer ul .searchMenuElement:hover {
 }
 
 nav .menuContainer ul .searchMenuElement .fa-search {
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 nav .menuContainer ul .searchMenuElement .fa-search:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
-  color: #FF6D24;
+  color: #ff6d24;
 }
 
 nav .menuContainer ul .orangeMenuElement {
   padding: 0 30px;
-  background-color: #FF6D24;
+  background-color: #ff6d24;
   color: #fff;
 }
 
@@ -106,6 +106,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 .topInfoContainer {
   width: 100%;
   position: relative;
+  font-family: "Montserrat";
 }
 
 .topInfoContainer .topInfoRightImg {
@@ -138,15 +139,15 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .topInfoContainer .topInfoLeftContent .topInfoBtn {
   margin: 30px 0 0 200px;
-  padding: 20px 25px;
+  padding: 21px 25px;
   font-size: 15px;
   position: relative;
   border: none;
-  background: #FF6D24;
+  background: #ff6d24;
   color: #fff;
   font-weight: 600;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -158,7 +159,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   content: "";
   width: 0;
   height: 0;
-  border-bottom: 59px solid #FF6D24;
+  border-bottom: 59px solid #ff6d24;
   border-right: 30px solid transparent;
   position: absolute;
   top: 0;
@@ -183,6 +184,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
       -ms-flex-pack: center;
           justify-content: center;
   border-bottom: 2px solid #ddd;
+  font-family: "Montserrat";
 }
 
 .brandingContainer .brandingElement {
@@ -210,6 +212,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 .informationsContainer {
   width: 100%;
   position: relative;
+  font-family: "Montserrat";
 }
 
 .informationsContainer .informationsHalfBackground {
@@ -324,10 +327,10 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 .informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--second .informationsSquareLink {
   color: #019aff;
   cursor: pointer;
-  -webkit-transition: -webkit-transform .2s ease-in-out;
-  transition: -webkit-transform .2s ease-in-out;
-  transition: transform .2s ease-in-out;
-  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 
 .informationsContainer .informationsContent .informationsSquaresContainer .informationsSquareElement--second .informationsSquareLink:hover {
@@ -358,7 +361,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   position: absolute;
   right: 20px;
   bottom: 10px;
-  opacity: .5;
+  opacity: 0.5;
   font-size: 90px;
 }
 
@@ -375,6 +378,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: "Montserrat";
 }
 
 .rateContainer .rateDescription {
@@ -394,7 +398,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 }
 
 .rateContainer .rateDescription .rateTextMainTitle::after {
-  content: '';
+  content: "";
   display: block;
   background: #ffc5b2;
   width: 205px;
@@ -444,8 +448,8 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .rateContainer .rateDescription .rateBtnsContainer .rateAboutBtn:hover {
@@ -469,8 +473,8 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   background: #ff841f;
   border: 2px solid #ff841f;
   cursor: pointer;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .rateContainer .rateDescription .rateBtnsContainer .ratePlayBtn:hover {
@@ -560,6 +564,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  font-family: "Montserrat";
 }
 
 .servicesContainer .serviceBackgroundBlue {
@@ -678,8 +683,8 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .servicesContainer .servicesContent .servicesTilesContainer .servicesTile .servicesTileLearnLink:hover {
@@ -725,8 +730,8 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   background: linear-gradient(90deg, #ea338a 0%, #c226cd 100%);
   border-radius: 25px;
   cursor: pointer;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .servicesContainer .servicesContent .serviceHireContainer .serviceHireBtn:hover {
@@ -739,6 +744,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 .technologiesContainer {
   width: 900px;
   margin: 10px auto 0 auto;
+  font-family: "Montserrat";
 }
 
 .technologiesContainer .technologiesTitleText {
@@ -750,7 +756,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 }
 
 .technologiesContainer .technologiesTitleText::after {
-  content: '';
+  content: "";
   display: block;
   background: #ffc5b2;
   width: 283px;
@@ -799,8 +805,8 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   font-weight: 600;
   width: 100%;
   cursor: pointer;
-  -webkit-transition: .15s;
-  transition: .15s;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
 }
 
 .technologiesContainer .technologiesMenu .technologiesMenuElement a:hover {
@@ -868,6 +874,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-family: "Montserrat";
 }
 
 .ourWorkContainer .ourWorkExperience .ourWorkTitle {
@@ -893,8 +900,8 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   border-left: 3px solid #b0b0b0;
   color: #b7b7b7;
   cursor: pointer;
-  -webkit-transition: .15s;
-  transition: .15s;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
 }
 
 .ourWorkContainer .ourWorkExperience .ourWorkExperienceDescription:hover {
@@ -912,8 +919,8 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   outline: none;
   border-radius: 25px;
   cursor: pointer;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .ourWorkContainer .ourWorkExperience .ourWorkViewBtn:hover {
@@ -931,6 +938,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   margin-top: 65px;
   background: #f9f9f9;
   text-align: center;
+  font-family: "Montserrat";
 }
 
 .ourTeamTitleContainer .ourTeamTitle {
@@ -944,6 +952,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 }
 
 .ourTeamContainer {
+  font-family: "Montserrat";
   padding: 90px 0 80px 0;
   width: 100%;
   background: #f9f9f9;
@@ -1074,6 +1083,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: "Montserrat";
 }
 
 .shortContactContainer .shortContactContentText {
@@ -1099,8 +1109,8 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   border-radius: 6px;
   font-weight: 500;
   cursor: pointer;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .shortContactContainer .shortContactBtnsContainer .shortContactBtn:hover {
@@ -1133,18 +1143,18 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
       -ms-flex-align: center;
           align-items: center;
   background: #f7f7f7;
+  font-family: "Roboto Mono";
   margin-bottom: 200px;
 }
 
 .recommendationsSlider .sliderTitle {
-  font-family: "Roboto Mono";
   color: #000;
   font-size: 50px;
   margin: 50px 0 35px 0;
 }
 
 .recommendationsSlider .splide {
-  width: 1200px;
+  width: 1300px;
   margin: 0 auto;
 }
 
@@ -1156,6 +1166,23 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 .recommendationsSlider .splide .splide__slide {
   background: #fff;
   height: 100%;
-  background: #32ff84;
+  font-family: "Roboto Mono";
+}
+
+.recommendationsSlider .splide .splide__slide .recommendationName {
+  margin: 50px 0 15px 80px;
+  line-height: 1.5;
+}
+
+.recommendationsSlider .splide .splide__slide .recommendationName span {
+  color: #888;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.recommendationsSlider .splide .splide__slide .recommendationContent {
+  float: right;
+  margin: 0 60px 30px 0;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
