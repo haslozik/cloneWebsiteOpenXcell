@@ -1199,4 +1199,52 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   height: 50px;
   background: #f7f7f7;
 }
+
+.domainsContainer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbf8ed), to(#fbebf7));
+  background: linear-gradient(#fbf8ed, #fbebf7);
+  font-family: "Montserrat";
+}
+
+.domainsContainer .domainsContent {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 70px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.domainsContainer .domainsContent .domainsTextContent {
+  width: 400px;
+}
+
+.domainsContainer .domainsContent .domainsTextContent .domainsSubTitle {
+  color: #e82183;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.domainsContainer .domainsContent .domainsTextContent .domainsTitleText {
+  color: #050748;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.domainsContainer .domainsContent .domainsTextContent .domainsContentText {
+  color: #686699;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.domainsContainer .domainsContent .domainsContentElements {
+  width: calc(100% - 400px);
+}
 /*# sourceMappingURL=style.css.map */

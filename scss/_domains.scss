@@ -1,0 +1,40 @@
+.domainsContainer {
+  background: linear-gradient(rgb(251, 248, 237), rgb(251, 235, 247));
+  font-family: map-get($map: $fonts, $key: font-1);
+
+  .domainsContent {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .domainsTextContent {
+      width: 400px;
+
+      .domainsSubTitle {
+        color: #e82183;
+        font-weight: 700;
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+
+      .domainsTitleText {
+        color: #050748;
+        font-size: 36px;
+        margin-bottom: 30px;
+      }
+
+      .domainsContentText {
+        color: #686699;
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+
+    .domainsContentElements {
+      width: calc(100% - 400px);
+    }
+  }
+}
