@@ -3,7 +3,7 @@
   font-family: map-get($map: $fonts, $key: font-1);
 
   .domainsContent {
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     padding: 70px 0;
     display: flex;
@@ -40,7 +40,49 @@
       grid-template-rows: 1fr 1fr 1fr;
 
       .domainsElement {
-        padding: 20px;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &--first {
+          background: #70e4e8;
+        }
+        &--second {
+          background: #f5eb92;
+        }
+        &--third {
+          background: #a3ffe2;
+        }
+        &--fourth {
+          background: #ffbd7a;
+        }
+        &--fifth {
+          background: #e3ff8e;
+        }
+        &--sixth {
+          background: #ffa0c6;
+        }
+        &--seventh {
+          background: #f3a6ff;
+        }
+        &--eighth {
+          background: #97ffaf;
+        }
+        &--ninth {
+          background: #6cfffa;
+        }
+        &--tenth {
+          background: #77bbff;
+        }
+        &--eleventh {
+          background: #ffefd4;
+        }
+        &--twelfth {
+          background: #7affdb;
+        }
       }
     }
   }

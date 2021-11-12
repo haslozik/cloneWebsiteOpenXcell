@@ -1207,7 +1207,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 }
 
 .domainsContainer .domainsContent {
-  width: 1200px;
+  width: 1300px;
   margin: 0 auto;
   padding: 70px 0;
   display: -webkit-box;
@@ -1255,6 +1255,68 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 }
 
 .domainsContainer .domainsContent .domainsContentElements .domainsElement {
-  padding: 20px;
+  padding: 10px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--first {
+  background: #70e4e8;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--second {
+  background: #f5eb92;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--third {
+  background: #a3ffe2;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--fourth {
+  background: #ffbd7a;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--fifth {
+  background: #e3ff8e;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--sixth {
+  background: #ffa0c6;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--seventh {
+  background: #f3a6ff;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--eighth {
+  background: #97ffaf;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--ninth {
+  background: #6cfffa;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--tenth {
+  background: #77bbff;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--eleventh {
+  background: #ffefd4;
+}
+
+.domainsContainer .domainsContent .domainsContentElements .domainsElement--twelfth {
+  background: #7affdb;
 }
 /*# sourceMappingURL=style.css.map */
