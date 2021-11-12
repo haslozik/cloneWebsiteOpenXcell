@@ -3,6 +3,7 @@
   padding: 30px 0;
   margin: 0 auto;
   font-family: map-get($map: $fonts, $key: font-1);
+  margin-bottom: 200px; //to del
 
   .howWeWorksTitleTextContainer {
     width: 100%;
@@ -27,7 +28,65 @@
       letter-spacing: 2px;
       position: absolute;
       top: 60px;
-      right: 60px;
+      right: 90px;
+
+      &::before {
+        content: "";
+        background: rgb(53, 127, 212);
+        width: 50px;
+        height: 2px;
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 65px;
+      }
+    }
+
+    .howWeWorksStepNumber {
+      font-size: 120px;
+      color: #ededed;
+      letter-spacing: 2px;
+      position: absolute;
+      top: -5px;
+      right: 5px;
+      z-index: -1;
+    }
+  }
+
+  .howWeWorksTimelineContainer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 30px 0;
+    position: relative;
+
+    .howWeWorksTimelineDots {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      border: 2px solid #dfdfdf;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      background: #fff;
+      z-index: 5;
+      transition: 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        border: 2px solid rgb(53, 127, 212);
+        color: rgb(53, 127, 212);
+      }
+    }
+
+    .howWeWorksTimelineLine {
+      width: 100%;
+      border-top: 1px solid #dfdfdf;
+      position: absolute;
+      top: 24px;
+      z-index: 1;
     }
   }
 }

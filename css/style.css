@@ -1339,6 +1339,7 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   padding: 30px 0;
   margin: 0 auto;
   font-family: "Montserrat";
+  margin-bottom: 200px;
 }
 
 .howWeWorksContainer .howWeWorksTitleTextContainer {
@@ -1363,6 +1364,77 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   letter-spacing: 2px;
   position: absolute;
   top: 60px;
-  right: 60px;
+  right: 90px;
+}
+
+.howWeWorksContainer .howWeWorksTitleTextContainer .howWeWorksStepText::before {
+  content: "";
+  background: #357fd4;
+  width: 50px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 65px;
+}
+
+.howWeWorksContainer .howWeWorksTitleTextContainer .howWeWorksStepNumber {
+  font-size: 120px;
+  color: #ededed;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  z-index: -1;
+}
+
+.howWeWorksContainer .howWeWorksTimelineContainer {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px 0 30px 0;
+  position: relative;
+}
+
+.howWeWorksContainer .howWeWorksTimelineContainer .howWeWorksTimelineDots {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #dfdfdf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  background: #fff;
+  z-index: 5;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.howWeWorksContainer .howWeWorksTimelineContainer .howWeWorksTimelineDots:hover {
+  border: 2px solid #357fd4;
+  color: #357fd4;
+}
+
+.howWeWorksContainer .howWeWorksTimelineContainer .howWeWorksTimelineLine {
+  width: 100%;
+  border-top: 1px solid #dfdfdf;
+  position: absolute;
+  top: 24px;
+  z-index: 1;
 }
 /*# sourceMappingURL=style.css.map */
