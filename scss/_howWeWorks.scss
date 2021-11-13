@@ -3,7 +3,6 @@
   padding: 30px 0;
   margin: 0 auto;
   font-family: map-get($map: $fonts, $key: font-1);
-  margin-bottom: 200px; //to del
 
   .howWeWorksTitleTextContainer {
     width: 100%;
@@ -58,7 +57,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 0 30px 0;
+    margin: 50px 0 60px 0;
     position: relative;
 
     .howWeWorksTimelineDots {
@@ -87,6 +86,41 @@
       position: absolute;
       top: 24px;
       z-index: 1;
+    }
+  }
+
+  .howWeWorksStepsDescriptionContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .howWeWorksStep {
+      width: calc(25% - 20px);
+      height: 170px;
+      padding: 10px;
+      position: relative;
+
+      .howWeWorksStepContentText {
+        padding: 20px 20px 20px 0;
+        color: rgb(131, 131, 131);
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      .howWeWorksStepLink {
+        color: rgb(53, 127, 212);
+        position: absolute;
+        bottom: 0;
+        font-size: 15px;
+        font-weight: 600;
+        transition: 0.2s;
+        cursor: pointer;
+
+        &:hover {
+          transform: translateY(-3px);
+        }
+      }
     }
   }
 }
