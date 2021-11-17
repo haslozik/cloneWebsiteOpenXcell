@@ -1479,4 +1479,25 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
 }
+
+.contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  min-height: 600px;
+}
+
+.contactContainer .contactImgSide {
+  width: 50%;
+  background: url("../img/contactImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactContainer .contactFormContainer {
+  width: 50%;
+  background: #f7f7f7;
+}
 /*# sourceMappingURL=style.css.map */
