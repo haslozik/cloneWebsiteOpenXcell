@@ -1498,6 +1498,116 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
 
 .contactContainer .contactFormContainer {
   width: 50%;
+  padding-left: 100px;
   background: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Montserrat";
+}
+
+.contactContainer .contactFormContainer h3,
+.contactContainer .contactFormContainer h1 {
+  font-weight: 400;
+}
+
+.contactContainer .contactFormContainer .contactFormBigText {
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+.contactContainer .contactFormContainer .contactFormBigText span {
+  font-weight: 900;
+}
+
+.contactContainer .contactFormContainer .contactFormSelect,
+.contactContainer .contactFormContainer .contactFormTextInput {
+  background: #f6f6f6;
+  padding: 14px 5px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.contactContainer .contactFormContainer .contactFormSelect::-webkit-input-placeholder,
+.contactContainer .contactFormContainer .contactFormTextInput::-webkit-input-placeholder {
+  color: #222;
+}
+
+.contactContainer .contactFormContainer .contactFormSelect:-ms-input-placeholder,
+.contactContainer .contactFormContainer .contactFormTextInput:-ms-input-placeholder {
+  color: #222;
+}
+
+.contactContainer .contactFormContainer .contactFormSelect::-ms-input-placeholder,
+.contactContainer .contactFormContainer .contactFormTextInput::-ms-input-placeholder {
+  color: #222;
+}
+
+.contactContainer .contactFormContainer .contactFormSelect::placeholder,
+.contactContainer .contactFormContainer .contactFormTextInput::placeholder {
+  color: #222;
+}
+
+.contactContainer .contactFormContainer .contactFormTextInputsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-top: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contactContainer .contactFormContainer .contactFormTextInputsContainer .contactFormTextSmallInput {
+  background: #f6f6f6;
+  padding: 14px 5px;
+  border: none;
+  outline: none;
+  width: 40%;
+}
+
+.contactContainer .contactFormContainer .contactFormTextInputsContainer .contactFormTextSmallInput::-webkit-input-placeholder {
+  color: #222;
+}
+
+.contactContainer .contactFormContainer .contactFormTextInputsContainer .contactFormTextSmallInput:-ms-input-placeholder {
+  color: #222;
+}
+
+.contactContainer .contactFormContainer .contactFormTextInputsContainer .contactFormTextSmallInput::-ms-input-placeholder {
+  color: #222;
+}
+
+.contactContainer .contactFormContainer .contactFormTextInputsContainer .contactFormTextSmallInput::placeholder {
+  color: #222;
+}
+
+.contactContainer .contactFormContainer .contactFormBtn {
+  background: #0284d0;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 170px;
+  padding: 14px 5px;
+  margin-top: 20px;
+  border-radius: 4px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.contactContainer .contactFormContainer .contactFormBtn:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
 /*# sourceMappingURL=style.css.map */

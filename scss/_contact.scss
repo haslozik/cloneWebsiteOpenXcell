@@ -13,6 +13,75 @@
 
   .contactFormContainer {
     width: 50%;
+    padding-left: 100px;
     background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: map-get($map: $fonts, $key: font-1);
+
+    h3,
+    h1 {
+      font-weight: 400;
+    }
+
+    .contactFormBigText {
+      margin: 20px 0;
+      font-size: 40px;
+
+      span {
+        font-weight: 900;
+      }
+    }
+
+    .contactFormSelect,
+    .contactFormTextInput {
+      background: #f6f6f6;
+      padding: 14px 5px;
+      border: none;
+      outline: none;
+      margin-top: 20px;
+      width: 50%;
+
+      &::placeholder {
+        color: #222;
+      }
+    }
+
+    .contactFormTextInputsContainer {
+      display: flex;
+      width: 50%;
+      margin-top: 20px;
+      justify-content: space-between;
+
+      .contactFormTextSmallInput {
+        background: #f6f6f6;
+        padding: 14px 5px;
+        border: none;
+        outline: none;
+        width: 40%;
+
+        &::placeholder {
+          color: #222;
+        }
+      }
+    }
+
+    .contactFormBtn {
+      background: #0284d0;
+      border: none;
+      outline: none;
+      color: #fff;
+      width: 170px;
+      padding: 14px 5px;
+      margin-top: 20px;
+      border-radius: 4px;
+      transition: 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
   }
 }
