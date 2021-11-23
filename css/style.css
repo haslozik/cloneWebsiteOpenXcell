@@ -1610,4 +1610,162 @@ nav .menuContainer ul .orangeMenuElement .fa-envelope {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
 }
+
+footer {
+  background: #0b2647;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-family: "Montserrat";
+}
+
+footer .footerInfoContainer {
+  width: 22%;
+  height: 320px;
+  border-right: 1px solid #4b525c;
+  padding: 20px;
+}
+
+footer .footerInfoContainer img {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+footer .footerInfoContainer .footerInfoContentText {
+  color: #69798d;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+footer .footerInfoContainer .footerInfoContentSub {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+footer .footerInfoContainer .footerInfoContentSub span {
+  color: #69798d;
+}
+
+footer .footerSiteMapContainer {
+  width: 20%;
+  height: 320px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footerSiteMapContainer .footerList .footerSiteMapList {
+  color: #69798d;
+  list-style: none;
+}
+
+footer .footerSiteMapContainer .footerList .footerSiteMapList .footerSiteMapListElement {
+  font-weight: 400;
+  padding: 8px;
+  cursor: pointer;
+}
+
+footer .footerSiteMapContainer .footerList .footerSiteMapList .footerSiteMapListElement--title {
+  color: #aa8e30;
+  font-weight: 600;
+  padding: 0 8px 8px 8px;
+  cursor: default !important;
+}
+
+footer .footerSiteMapContainer .footerList .footerSiteMapList .footerSiteMapListElement--title:hover {
+  color: #aa8e30 !important;
+}
+
+footer .footerSiteMapContainer .footerList .footerSiteMapList .footerSiteMapListElement:hover {
+  color: #798ba1;
+}
+
+footer .footerEmailContainer {
+  width: 22%;
+  height: 320px;
+  padding: 15px;
+}
+
+footer .footerEmailContainer .footerEmailTitle {
+  font-weight: 600;
+  color: #aa8e30;
+}
+
+footer .footerEmailContainer .footerEmailContantText {
+  color: #69798d;
+  font-weight: 400;
+  line-height: 1.8;
+  padding: 8px 0;
+}
+
+footer .footerEmailContainer .footerEmailContantText span {
+  color: #646464;
+  font-weight: 600;
+}
+
+footer .footerEmailContainer .footerEmailInputContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+footer .footerEmailContainer .footerEmailInputContainer .footerEmailInput {
+  width: calc(70% - 15px);
+  margin-right: 15px;
+  background: #041121;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 13px 10px;
+  font-size: 15px;
+}
+
+footer .footerEmailContainer .footerEmailInputContainer .footerEmailInput::-webkit-input-placeholder {
+  color: #fff;
+}
+
+footer .footerEmailContainer .footerEmailInputContainer .footerEmailInput:-ms-input-placeholder {
+  color: #fff;
+}
+
+footer .footerEmailContainer .footerEmailInputContainer .footerEmailInput::-ms-input-placeholder {
+  color: #fff;
+}
+
+footer .footerEmailContainer .footerEmailInputContainer .footerEmailInput::placeholder {
+  color: #fff;
+}
+
+footer .footerEmailContainer .footerEmailInputContainer .footerEmailSignUp {
+  width: 30%;
+  background: #aa8e30;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+footer .footerEmailContainer .footerEmailInputContainer .footerEmailSignUp:hover {
+  background: #c2a136;
+}
 /*# sourceMappingURL=style.css.map */
