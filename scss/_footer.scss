@@ -132,3 +132,53 @@ footer {
     }
   }
 }
+
+.footerCopyLinksContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #0b2647;
+
+  .footerCopyLinks {
+    width: 64%;
+    margin-top: 30px;
+    padding: 20px 0;
+    border-top: 1px solid #4b525c;
+    font-family: map-get($map: $fonts, $key: font-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footerCopyContent {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #69798d;
+      height: 30px;
+
+      .footerCopy {
+        padding: 0 8px;
+        font-weight: 400;
+      }
+    }
+
+    .footerSocials {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #69798d;
+      height: 30px;
+
+      i {
+        font-size: 23px;
+        padding: 0 10px;
+        cursor: pointer;
+
+        &:hover {
+          color: #798ba1;
+        }
+      }
+    }
+  }
+}
