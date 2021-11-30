@@ -130,3 +130,62 @@
     }
   }
 }
+
+@media (max-width: 1115px) {
+  .informationsContainer {
+    .informationsContent {
+      width: 85%;
+      margin: 0 auto;
+      padding: 60px 20px 20px 20px;
+
+      .informationsTextContainer {
+        display: flex;
+        flex-direction: column;
+
+        .informationTextContentLeft {
+          width: 85%;
+          overflow-wrap: break-word;
+          flex-wrap: wrap;
+
+          .informationTextUpperTitle {
+            color: #ba03fc;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+          }
+        }
+
+        .informationTextContentRight {
+          width: 85%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .informationText {
+            color: #555;
+            padding: 15px 0 15px 0;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 2;
+          }
+        }
+      }
+
+      .informationsSquaresContainer {
+        flex-direction: column;
+        align-items: center;
+        height: 670px;
+        margin: 0;
+
+        .informationsSquareElement {
+          width: 70%;
+          margin: 10px auto;
+          height: 240px;
+          position: relative;
+          text-align: center;
+          color: #fff;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
